@@ -18,6 +18,7 @@ const Header = (props) => {
             <Link className='btn btn-primary m-2 col' to={'/portfolio'}>Portfolio</Link>
             <Link className='btn btn-primary m-2 col' to={'/reviews'}>Reviews</Link>
           </div>
+          <br />
           <div className="title row">
             <h1 className='text-left'>{title}</h1>
           </div>
