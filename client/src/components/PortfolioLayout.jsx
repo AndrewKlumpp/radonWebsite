@@ -7,46 +7,47 @@ import gallery6 from '/gallery6.jpg';
 
 const PortfolioLayout = () => {
   return (
-    <div class="contain">
-      <div class="gallery">
-        <div class="gallery__item gallery__item--1">
+    <div className="contain">
+      <br />
+      <div className="gallery">
+        <div className="gallery__item gallery__item--1">
           <img
-            class="gallery__img"
+            className="gallery__img"
             src={gallery1}
             alt="exhaust duct" />
         </div>
 
-        <div class="gallery__item gallery__item--2">
+        <div className="gallery__item gallery__item--2">
           <img
-            class="gallery__img"
+            className="gallery__img"
             src={gallery2}
             alt="new construction" />
         </div>
 
-        <div class="gallery__item gallery__item--3">
+        <div className="gallery__item gallery__item--3">
           <img
-            class="gallery__img"
+            className="gallery__img"
             src={gallery3}
             alt="exhaust duct" />
         </div>
 
-        <div class="gallery__item gallery__item--4">
+        <div className="gallery__item gallery__item--4">
           <img
-            class="gallery__img"
+            className="gallery__img"
             src={gallery4}
             alt="new construction" />
         </div>
 
-        <div class="gallery__item gallery__item--5">
+        <div className="gallery__item gallery__item--5">
           <img
-            class="gallery__img"
+            className="gallery__img"
             src={gallery5}
             alt="lining under hvac" />
         </div>
 
-        <div class="gallery__item gallery__item--6">
+        <div className="gallery__item gallery__item--6">
           <img
-            class="gallery__img"
+            className="gallery__img"
             src={gallery6}
             alt="crawlspace" />
         </div>

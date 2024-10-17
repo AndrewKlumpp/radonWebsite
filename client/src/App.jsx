@@ -6,6 +6,7 @@ import Services from './views/Services'
 import Contact from './views/Contact'
 import Portfolio from './views/Portfolio'
 import Reviews from './views/Reviews'
+import AddReview from './views/AddReview'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/reviews' element={<Reviews/>}/>
+        <Route path='/create/review' element={<AddReview/>}/>
       </Routes>
     </>
   )

@@ -4,7 +4,7 @@ import Header from '../components/Header';
 const Contact = (props) => {
   return (
     <div>
-      <Header title={'Contact Us | Get a Quote'} />
+      <Header title={'Get a Quote'} />
     </div>
   )
 }
