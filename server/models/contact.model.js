@@ -22,8 +22,8 @@ const ContactSchema = new Schema(
     phone: {
       type: String,
       required: [true, "Phone is required!"],
-      minlength: [12, "Phone must be entered as 000-000-0000!"],
-      maxlength: [12, "Phone must be entered as 000-000-0000!"]
+      minlength: [10, "Phone must be entered as 0000000000!"],
+      maxlength: [10, "Phone must be entered as 0000000000!"]
     },
     city: {
       type: String,

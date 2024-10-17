@@ -94,3 +94,12 @@ h1 {
 .bonded {
   width: 70%
 }
+
+.certificate {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.nrpp-badge {
+  width: 60%;
+}

@@ -8,6 +8,9 @@ import Portfolio from './views/Portfolio'
 import Reviews from './views/Reviews'
 import AddReview from './views/AddReview'
 import Edit from './views/Edit'
+import QuoteThanks from './views/QuoteThanks'
+import Quotes from './views/Quotes'
+import Details from './views/Details'
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
         <Route path='/reviews' element={<Reviews/>}/>
         <Route path='/create/review' element={<AddReview/>}/>
         <Route path='/:id/edit' element={<Edit/>}/>
+        <Route path='/quote' element={<QuoteThanks/>}/>
+        <Route path='/quotes' element={<Quotes/>}/>
+        <Route path='/:id/details' element={<Details/>}/>
       </Routes>
     </>
   )

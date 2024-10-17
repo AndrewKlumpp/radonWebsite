@@ -14,7 +14,7 @@ const Header = (props) => {
             <Link className='btn btn-primary m-2 col' to={'/'}>Home</Link>
             <Link className='btn btn-primary m-2 col' to={'/about'}>About</Link>
             <Link className='btn btn-primary m-2 col' to={'/services'}>Services</Link>
-            <Link className='btn btn-primary m-2 col' to={'/contact'}>Get a Quote</Link>
+            <Link className='btn btn-primary m-2 col' to={'/contact'}>Quote</Link>
             <Link className='btn btn-primary m-2 col' to={'/portfolio'}>Portfolio</Link>
             <Link className='btn btn-primary m-2 col' to={'/reviews'}>Reviews</Link>
           </div>

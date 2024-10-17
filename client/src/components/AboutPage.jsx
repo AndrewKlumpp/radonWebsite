@@ -1,4 +1,6 @@
 import tom from '/tom.jpeg';
+import certificate from '/nrpp-certificate.png';
+import nrppBadge from '/nrpp-badge.png';
 const AboutPage = () => {
   return (
     <div className='container'>
@@ -15,6 +17,20 @@ const AboutPage = () => {
             className="tom"
             src={tom}
             alt="Tom Mahr" />
+        </div>
+      </div>
+      <div className='d-flex'>
+        <div className='col-6 '>
+          <img
+            className="certificate"
+            src={certificate}
+            alt="NRPP Certificate" />
+        </div>
+        <div className='col-6 p-5 ms-5'>
+          <img
+            className="nrpp-badge"
+            src={nrppBadge}
+            alt="NRPP Badge" />
         </div>
       </div>
     </div>
