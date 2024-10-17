@@ -23,7 +23,7 @@ const DisplayReviews = (props) => {
             <th>City</th>
             <th>Stars</th>
             <th>Review</th>
-            <th>Edit</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>

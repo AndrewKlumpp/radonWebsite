@@ -8,10 +8,9 @@ const HomeContent = () => {
         <div className='col'>
           <br />
           <h3>Call us now!</h3>
-          <h2>(970) 319-6586</h2>
-          <br />
+          <h2>(970) 319-6586</h2><hr />
           <h4>Send us an email!</h4>
-          <h2>coloradoradonspecialists@gmail.com</h2>
+          <a href="mailto:coloradoradonspecialists@gmail.com">coloradoradonspecialists@gmail.com</a><br /><hr />
           <img
             className="nrpp-logo"
             src={nrppLogo}

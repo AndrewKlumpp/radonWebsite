@@ -7,6 +7,7 @@ import Contact from './views/Contact'
 import Portfolio from './views/Portfolio'
 import Reviews from './views/Reviews'
 import AddReview from './views/AddReview'
+import Edit from './views/Edit'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/reviews' element={<Reviews/>}/>
         <Route path='/create/review' element={<AddReview/>}/>
+        <Route path='/:id/edit' element={<Edit/>}/>
       </Routes>
     </>
   )
